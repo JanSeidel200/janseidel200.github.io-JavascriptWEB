@@ -14,26 +14,29 @@
     <title>Javascript WEB</title>
 </head>
 <body>
+    <h1>JAVASCRIPT WEB</h1>
+    <h2>Lighbox Gallery</h2>
     <div class="lightbox">
         <a data-fslightbox="gallery" id="1" href="./img/forest1.jpg">
-            <img class="lightbox-img" src="./img/forest1.jpg">
+            <img class="lightbox-img" src="./img/forest1.jpg" alt="Picture of a forest">
         </a>
         <a data-fslightbox="gallery" id="2" href="./img/forest2.jpg">
-            <img class="lightbox-img" src="./img/forest2.jpg">
+            <img class="lightbox-img" src="./img/forest2.jpg" alt="Picture of a forest">
         </a>
         <a data-fslightbox="gallery" id="3" href="./img/forest3.jpg">
-            <img class="lightbox-img" src="./img/forest3.jpg">
+            <img class="lightbox-img" src="./img/forest3.jpg" alt="Picture of a forest">
         </a>
         <a data-fslightbox="gallery" id="4" href="./img/forest4.jpg">
-            <img class="lightbox-img" src="./img/forest4.jpg">
+            <img class="lightbox-img" src="./img/forest4.jpg" alt="Picture of a forest">
         </a>
     </div>
+    <h2>Carousel</h2>
     <div class="carousel">
         <div class="swiffy-slider">
             <ul class="slider-container">
-                <li><img class="carousel-img" src="https://source.unsplash.com/49b9l_29ceA/1600x900"></li>
-                <li><img class="carousel-img" src="https://source.unsplash.com/nKAglN6HBH8/1600x900"></li>
-                <li><img class="carousel-img" src="https://source.unsplash.com/E9ZwWcMGzj8/1600x900"></li>
+                <li><img class="carousel-img" src="./img/space1.jpg" alt="Picture of space"></li>
+                <li><img class="carousel-img" src="./img/space2.jpg" alt="Picture of space"></li>
+                <li><img class="carousel-img" src="./img/space3.jpg" alt="Picture of space"></li>
             </ul>
         
             <button type="button" class="slider-nav"></button>
@@ -46,7 +49,7 @@
             </div>
         </div>
     </div>
-
+    <h2>Map</h2>
     <div id="mapa" style="width:800px; height:600px;"></div>
 	<script type="text/javascript">
 		var stred = SMap.Coords.fromWGS84(14.41, 50.08);
@@ -54,7 +57,7 @@
 		mapa.addDefaultLayer(SMap.DEF_BASE).enable();
 		mapa.addDefaultControls();	      	      
 	</script>
-
+    <h2>Graph</h2>
     <div id="chart"></div>
     <script>
         var options = {
